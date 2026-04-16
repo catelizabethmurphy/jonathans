@@ -1,0 +1,23 @@
+{
+	"name": "328t628t-starter-repo",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview --port 5174",
+		"start": "npm run dev"
+	},
+	"engines": {
+		"node": ">=16"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^5.0.0",
+		"vite": "^5.0.0"
+	},
+	"dependencies": {
+		"d3": "^7.9.0",
+		"vue": "^3.4.0"
+	}
+}
