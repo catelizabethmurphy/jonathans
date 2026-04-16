@@ -8,7 +8,7 @@
 html,body,#app{height:100%;}
 body{
   margin:0;
-  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  font-family: "PT Sans", sans-serif;
   background: linear-gradient(180deg,var(--bg),#071028);
   display:flex;
   align-items:center;
@@ -18,7 +18,8 @@ body{
 
 #app{
   background: rgb(255, 255, 255);
-  padding:28px;
+  padding-top: 30px;
+  padding-left: 30px;
   border-radius:10px;
   box-shadow: 0 6px 24px rgba(2,6,23,0.6);
   width: 90vw;
@@ -35,9 +36,22 @@ h1 {
   font-size: 1.55em;
   margin: 12px 0;
   font-weight: 600;
+  padding-bottom: 0px;
 }
 
 p {
   margin: 0;
   font-size: 0.8rem;
+}
+
+/* Annotation styling: make labels smaller and prevent clipping */
+.annotation {
+  overflow: visible;
+}
+.annotation-note-title {
+  font-size: 1.0em;
+}
+.annotation-note-label {
+  font-size: 0.85em;
+  line-height: 1.1;
 }
